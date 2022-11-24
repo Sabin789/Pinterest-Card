@@ -1,0 +1,130 @@
+.container{
+    position: relative;
+    width: 500px;
+    height: 680px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    overflow: hidden;
+
+}
+.container:hover .save{
+    position: absolute;
+    top: 5px;
+    transform: translateX(-150px);
+    transition: 1s;
+    bottom: 0;
+    
+    background-color: red;
+    border-radius: 40px;
+    width: 120px;
+    height: 80px;
+}
+.save{
+    position: absolute;
+    top: 5px;
+    right: -120px;
+    bottom: 0;
+    
+    background-color: red;
+    border-radius: 40px;
+    width: 120px;
+    height: 80px;
+    
+}
+.pic{
+    border-radius: 20px;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom:0;
+   object-fit: contain;
+
+}
+
+
+
+
+
+
+.container:hover .save-text{
+    font-size: 2em;
+    position: absolute;
+    top: 3px;
+    transform: translatex(-150px);
+    transition: 1s;
+}
+.save-text{
+    font-size: 2em;
+    position: absolute;
+    top: 3px;
+    right:-100px;
+}
+.container:hover .upload{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+   
+    transform: translateY(-220px);
+    transition: 1s;
+    right: 180px;
+    background-color: white;
+    border-radius: 50%;
+}
+.upload{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+   
+    bottom: -210px;
+   
+    right: 180px;
+    background-color: white;
+    border-radius: 50%;
+}
+.container:hover .dots{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+   
+    transform: translateY(-220px);
+    transition: 1s;
+    right: 30px;
+    background-color: white;
+    border-radius: 50%;
+}
+.dots{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+   
+    bottom: -210px;
+   
+    right: 30px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.container:hover .arrow-pop-up{
+    height: 80px;
+    width: 160px;
+    position: absolute;
+   
+    transform: translateY(-220px);
+    transition: 1s;
+   
+    left: 10px;
+    background-color: white;
+    border-radius: 50%;
+}
+.arrow-pop-up{
+    height: 80px;
+    width: 160px;
+    position: absolute;
+   
+    bottom: -210px;
+   
+    left: 10px;
+    background-color: white;
+    border-radius: 50%;
+}
